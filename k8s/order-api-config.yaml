@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: order-api-config
+data:
+  CUSTOMER_API_URL: "http://customer-api"
